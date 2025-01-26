@@ -1,4 +1,5 @@
 import React from 'react';
+import AdminPanel from './admin/page';
 
 export default function Home() {
 
@@ -8,7 +9,7 @@ export default function Home() {
       <br />
       <br />
       <br />
-      <h1>This is First Page</h1>
+      <AdminPanel />
       <br />
       <br />
       <br />
