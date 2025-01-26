@@ -13,7 +13,7 @@ import { usePathname } from "next/navigation";
 
 // =======================================================================
 
-import { AppProvider } from "@/app/context/AppContext.jsx";
+// import { AppProvider } from "@/app/context/AppContext.jsx";
 
 // =======================================================================
 
@@ -57,7 +57,7 @@ export default function RootLayout({ children }) {
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           {/* _________________________________________________________________________________ */}
-          <AppProvider>
+          {/* <AppProvider> */}
 
             {/* ================================================= */}
             {shouldShowNavBar && <Navbar />}
@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
             {shouldShowNavBar && <Footer />}
             {/* ================================================= */}
 
-          </AppProvider>
+          {/* </AppProvider> */}
           {/* _________________________________________________________________________________ */}
         </body>
       </html>
